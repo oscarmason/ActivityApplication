@@ -1,0 +1,9 @@
+<resources>
+    <!-- Fonts -->
+    <dimen name="summary_text_font_size">16sp</dimen>
+    <dimen name="sessionsValues">30sp</dimen>
+    <dimen name="sessionLabels">18sp</dimen>
+    <dimen name="statisticValues">22sp</dimen>
+    <dimen name="statisticDateHeaders">24sp</dimen>
+
+</resources>

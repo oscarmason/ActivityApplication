@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mdp.cw4.runningtracker">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <uses-feature android:name="android.hardware.location.gps" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/running_tracker_app_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/running_tracker_app_icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <!-- The API key for Google Maps-based APIs. -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".activities.ViewWorkoutSession"
+            android:label="Session"/>
+
+        <activity
+            android:name=".activities.RunningTracker"
+            android:launchMode="singleTop">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name=".WorkoutSessionService"
+            android:exported="false" />
+
+        <provider
+            android:name=".WorkoutSessionContentProvider"
+            android:authorities="com.mdp.cw4.runningtracker.WorkoutSessionContentProvider"
+            android:exported="false"
+            android:multiprocess="true" />
+
+        <activity android:name=".activities.WorkoutSessionHistory"
+            android:label="Session History" />
+        <activity android:name=".activities.Statistics"
+            android:label="Statistics" />
+    </application>
+
+</manifest>

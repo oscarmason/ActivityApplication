@@ -1,0 +1,89 @@
+<resources>
+    <string name="app_name">Running Tracker</string>
+    <string name="zero_distance">0 km</string>
+    <string name="zero_duration">00:00:00</string>
+    <string name="zero_pace">0 m/s</string>
+    <string name="duration">Duration</string>
+    <string name="distance">Distance</string>
+    <string name="pace">Pace</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="delete">Delete</string>
+    <string name="filterBy">Filter By</string>
+    <string name="sortBy">Sort By</string>
+    <string name="running">Running</string>
+    <string name="walking">Walking</string>
+    <string name="cycling">Cycling</string>
+    <string name="year">Year</string>
+    <string name="month">Month</string>
+    <string name="date">Date</string>
+    <string name="hour">Hour</string>
+    <string name="minute">Min</string>
+
+    <!-- Buttons -->
+    <string name="stop">Stop</string>
+    <string name="start">Start</string>
+    <string name="pause">Pause</string>
+    <string name="resume">Resume</string>
+    <string name="enable_gps">Enable GPS</string>
+    <string name="openFilterOptions">Open Filter Options</string>
+    <string name="closeFilterOptions">Close Filter Options</string>
+    <string name="selectDate">Select Date</string>
+
+    <!-- Month Identifiers -->
+    <string name="jan">J</string>
+    <string name="feb">F</string>
+    <string name="mar">M</string>
+    <string name="apr">A</string>
+    <string name="may">M</string>
+    <string name="jun">J</string>
+    <string name="jul">J</string>
+    <string name="aug">A</string>
+    <string name="sep">S</string>
+    <string name="oct">O</string>
+    <string name="nov">N</string>
+    <string name="dec">D</string>
+
+
+    <string-array name="months">
+        <item>Month</item>
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+    </string-array>
+
+    <string-array name="years">
+        <item>Year</item>
+    </string-array>
+
+    <string-array name="sortByOptions">
+        <item>Date</item>
+        <item>Distance</item>
+        <item>Duration</item>
+    </string-array>
+
+    <string-array name="sortByDirection">
+        <item>Descending</item>
+        <item>Ascending</item>
+    </string-array>
+
+    <string-array name="workoutTypes">
+        <item>Running</item>
+        <item>Walking</item>
+        <item>Cycling</item>
+    </string-array>
+
+    <string-array name="yearlyGraphVariables">
+        <item>Distance</item>
+        <item>Duration</item>
+    </string-array>
+</resources>
