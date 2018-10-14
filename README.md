@@ -1,5 +1,5 @@
-# Activity Tracker
-Activity tracker is an Android application that allows users to track, store and view their workout sessions.
+# Workout Tracker
+Workout tracker is an Android application that allows users to track, store and view their workout sessions.
 
 This application was developed during my undergraduate degree as part of the coursework for a module in mobile device programming.
 
